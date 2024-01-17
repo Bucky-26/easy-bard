@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 8888;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const token = 'fAhJFONvxZtEzjUBMmMsa0OjFh56GvuMwDS3Cz_QYdoxFzY13OJfp-g2oVyqx6pBD-VxiA.';
+const token = 'ewhJFNbvEYKWRaEoRnmfu547F4CGhO4UvjxwkNhnK0NSfcHiifkJNmRmDr4TaTgbUv0MCw.';
 app.use(express.json());
 
 const jsonFilePath = join(__dirname, '/_conversation.json');
@@ -50,8 +50,7 @@ async function getUserDataById(userId) {
 	}
 }
 
-app.get('/v1/chat/completion', async (req, res) => {
-		const bard = new Bard(token);
+app.get('/api/bard', async (req, res) => {
 	const _message = req.query.message;
 	const _id = req.query.id;
 	let _image_url = req.query.url;
@@ -64,6 +63,7 @@ app.get('/v1/chat/completion', async (req, res) => {
 	}
 
 	try {
+		const bard = new Bard(token);
 		const _ids = await getUserDataById(_id);
 
 		if (_image_url) {

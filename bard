@@ -1,0 +1,93 @@
+TypeError: Bard.init is not a constructor
+    at file:///root/easy-bard/index.mjs:15:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:430:15)
+TypeError: Bard.init is not a constructor
+    at file:///root/easy-bard/index.mjs:15:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:430:15)
+TypeError: Bard.Chat is not a constructor
+    at file:///root/easy-bard/index.mjs:17:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:430:15)
+TypeError: Bard.Chat is not a constructor
+    at file:///root/easy-bard/index.mjs:17:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:430:15)
+Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: TypeError: Cannot read properties of null (reading '4')
+    at #query (file:///root/easy-bard/node_modules/bard-ai/index.js:240:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error calling Bard API: Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+(node:725878) PromiseRejectionHandledWarning: Promise rejection was handled asynchronously (rejection id: 4)
+(Use `node --trace-warnings ...` to show where the warning was created)
+Error calling Bard API: Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error calling Bard API: Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error calling Bard API: Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async #query (file:///root/easy-bard/node_modules/bard-ai/index.js:154:9)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async #query (file:///root/easy-bard/node_modules/bard-ai/index.js:154:9)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
+Error calling Bard API: Error: Could not use your Cookie. Make sure that you copied correctly the Cookie with name __Secure-1PSID exactly. If you are sure your cookie is correct, you may also have reached your rate limit.
+    at #init (file:///root/easy-bard/node_modules/bard-ai/index.js:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async #query (file:///root/easy-bard/node_modules/bard-ai/index.js:154:9)
+    at async Chat.ask (file:///root/easy-bard/node_modules/bard-ai/index.js:353:32)
+    at async file:///root/easy-bard/index.mjs:80:16
